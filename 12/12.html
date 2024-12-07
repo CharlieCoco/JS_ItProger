@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>12 урок по JS</title>
+    </head>
+
+    <body>
+    	<!--form id="main-form" onsubmit="return  checkForm(this)" method="post"--> <!-- 1 СПОСОБ -->
+		<form id="main-form" method="post"> <!-- 2 СПОСОБ -->
+			<label for="name">Name:</label>
+			<input type="text" name="name" placeholder="Enter name" id="name"><br><br>
+			
+			<label for="password">Password:</label>
+			<input type="password" name="pass" placeholder="Enter password" id="pass"><br><br>
+			
+			<label for="repass">Password again:</label>
+			<input type="password" name="repass" placeholder="Enter password again" id="repass"><br><br>
+			
+			<span>Sex:</span>
+			<label for="male">Male</label>
+			<input type="radio" name="state" id="male" value="Male">
+			<label for="female">Female</label>
+			<input type="radio" name="state" id="female" value="Female"><br><br>
+			
+			<div id="error" style="color: red"></div>
+			
+			<input type="submit" name="submit" value="Ready">
+		</form>
+
+		<script src="12.js"></script>
+    </body>
+
+</html>
+
